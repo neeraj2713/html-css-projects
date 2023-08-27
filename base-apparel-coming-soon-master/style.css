@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Josefin Sans';
+    font-size: 16px;
+}
+
+
+.img-container{
+    background-image: url(images/hero-desktop.jpg);
+    height: 100vh;
+    width: 55vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text-container{
+    width: 830px;
+    height: 100vh;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='830' height='800'%3E%3Cdefs%3E%3ClinearGradient id='a' x1='95.861%25' x2='10.913%25' y1='2.476%25' y2='101.718%25'%3E%3Cstop offset='0%25' stop-color='%23FFF1F1'%3E%3C/stop%3E%3Cstop offset='100%25' stop-color='%23FFF'%3E%3C/stop%3E%3C/linearGradient%3E%3ClinearGradient id='b' x1='95.937%25' x2='10.848%25' y1='2.476%25' y2='101.718%25'%3E%3Cstop offset='0%25' stop-color='%23FFF1F1'%3E%3C/stop%3E%3Cstop offset='100%25' stop-color='%23FFF'%3E%3C/stop%3E%3C/linearGradient%3E%3C/defs%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cpath fill='url(%23a)' d='M0 800c48.557-184.991 167.048-301.57 355.473-349.737C543.898 402.096 688.074 252.008 788 0v800H0z' transform='rotate(180 394 400)'%3E%3C/path%3E%3Cpath fill='url(%23b)' d='M413 800c25.696-97.814 88.4-159.455 188.112-184.924C700.824 589.608 777.12 510.25 830 377v423H413z'%3E%3C/path%3E%3C/g%3E%3C/svg%3E");
+    display: flex; 
+    flex-direction: column;
+    padding-left: 8rem;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.brand-text{
+    font-size: 4rem;
+    line-height: 2cm;
+    letter-spacing: 0.5cm;
+}
+
+.brand-description{
+    font-weight: 300;
+    color: hsl(0, 36%, 70%);
+    width: 30vw;
+}
+
+.brand-name{
+    font-weight: 400;
+}
+
+.brand-logo{
+    background-image: url(images/logo.svg);
+    width: 100%;
+    height: 50px;
+    background-repeat: no-repeat;
+}
+
+#brand-text-highlight{
+    font-weight: 300;
+    color: hsl(0, 36%, 70%);
+}
+
+.form{
+    display: flex;
+}
+
+input{
+    border-radius: 10px;
+    width: 18rem;
+    height: 3rem;
+    border: 1px solid hsl(0, 36%, 70%);
+}
+
+button{
+    height: 3rem;
+    width: 5rem;
+}
+
+
+
+
